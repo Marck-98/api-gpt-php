@@ -7,7 +7,7 @@ async function enviarMensaje() {
         return;
     }
 
-    const url = "http://98.80.183.34/api-gpt-php/endpoints/chat.php";  // Ajuste para que funcione en el mismo dominio
+    const url = "https://98.80.183.34/api-gpt-php/endpoints/chat.php";  // Ajuste para que funcione en el mismo dominio
     const datos = { message: inputMensaje };
 
     try {
